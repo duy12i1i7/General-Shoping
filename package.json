@@ -1,0 +1,20 @@
+{
+  "name": "oop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main/main.js",
+  "scripts": {
+    "start": "npm run loadData && electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "loadData": "cd renderer/client && python.exe loadData.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "electron": "^27.1.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.0"
+  }
+}
